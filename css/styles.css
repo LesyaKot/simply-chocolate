@@ -304,8 +304,8 @@ section {
   }
 }
 /* HEADER DESKTOP */
-@media screen and(min-width:1168px){
-  .container{
+@media screen and(min-width:1168px) {
+  .container {
     width: 1168px;
   }
 }
@@ -586,15 +586,15 @@ height: 62px; */
   }
 }
 /* BENEFITS DESKTOP */
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   .benefits-section {
     width: 1168px;
-}
-.benefits-menu {
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 70px;
-}
+  }
+  .benefits-menu {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 70px;
+  }
 }
 /* INGREDIENTS MOBILE */
 .ingredients-section {
@@ -858,7 +858,6 @@ height: 62px; */
 @media screen and (min-width: 1168px) {
   .container-benefits {
     width: 1168px;
-    
   }
   .ingredients-menu {
     display: flex;
@@ -869,8 +868,8 @@ height: 62px; */
   /* .ingredients-item-orange {
     /* width: 206px;
     height: 160px; */
-    /* padding: 28px 36px 36px 28px;
-  } */ 
+  /* padding: 28px 36px 36px 28px;
+  } */
   .ingredients-item-black,
   .ingredients-item-white,
   .ingredients-item-orange {
@@ -967,12 +966,11 @@ height: 62px; */
 
 /* HOW MADE TABLET */
 @media screen and (min-width: 1168px) {
-  .made-pic-container{
+  .made-pic-container {
     display: flex;
-    gap:20px;
+    gap: 20px;
   }
 }
-
 
 /* Chocolate is loved MOBILE */
 
@@ -1102,7 +1100,7 @@ height: 62px; */
     letter-spacing: -0.72px;
     text-transform: uppercase;
     margin-bottom: 50px;
-      }
+  }
   .loved-item-title {
     color: #111;
     text-align: center;
@@ -1154,26 +1152,25 @@ height: 62px; */
 /* Chocolate is loved DESKTOP */
 @media screen and (min-width: 1168px) {
   .loved-section {
-     width: 1168px;
-     margin-left: auto;
-     margin-right: auto;
-}
-.olena {
-  display: flex;
-  visibility: visible;
-  
-  text-align: center;
-  justify-content: center;
-}
-.loved-item {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  width: calc((100% - 2 * 28px) / 3);
-  gap: 28px;
-}
-}
+    width: 1168px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .olena {
+    display: flex;
+    visibility: visible;
 
+    text-align: center;
+    justify-content: center;
+  }
+  .loved-item {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: calc((100% - 2 * 28px) / 3);
+    gap: 28px;
+  }
+}
 
 /* FOOTER MOBILE */
 .page-footer {
@@ -1252,52 +1249,52 @@ height: 62px; */
   letter-spacing: -0.28px;
 }
 /* FOOTER TABLET */
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   .page-footer {
     width: 768px;
-    }
+  }
   .foot-title {
     padding-top: 50px;
   }
-    .bottom{
+  .bottom {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  .foot-conteiner{
-  display: block;
-  padding-top: 50px;
-    }
-  .foot-title-sm{
+  .foot-conteiner {
+    display: block;
+    padding-top: 50px;
+  }
+  .foot-title-sm {
     display: block;
     margin-bottom: 14px;
   }
-  
-  .foot-nav-menu{
-      gap: 24px;
-      margin-top: 78px;
-      display: flex;
+
+  .foot-nav-menu {
+    gap: 24px;
+    margin-top: 78px;
+    display: flex;
     padding-bottom: 65px;
   }
-  .foot-item{
-  color: #fff;
-  padding-top: 14px;
-  padding-bottom: 14px;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: -0.28px;
+  .foot-item {
+    color: #fff;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.28px;
   }
 }
 /* FOOTER DESKTOP */
-@media screen and (min-width: 1168px){
+@media screen and (min-width: 1168px) {
   .page-footer {
     min-width: 1168px;
     margin-left: auto;
     margin-right: auto;
-    }
   }
+}
 
 /* BACKDROP STYLES MOBILE */
 .backdrop {
@@ -1469,3 +1466,62 @@ height: 62px; */
   border-color: #fd9222;
   transition: transform 250ms linear;
 }
+
+/* ABOUT US */
+.about-us-section{
+  min-width: 320px;
+  
+  
+}
+ .about-us-container{
+  background-color: var(--black, #1c2225);
+  border-radius: 4px;
+ } 
+.my-background-image{
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  /* position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1; */
+ } 
+
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+.about-us-title {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.375;
+  letter-spacing: -0.03em;
+  color: var(--white, #fcf9f9);
+  margin-bottom: 40px;
+}
+.about-us-text-first-paragraph {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.04em;
+  color: rgba(252, 249, 249, 0.4);
+  margin-bottom: 20px;
+}
+.about-us-text-second-paragraph {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.04em;
+  color: rgba(252, 249, 249, 0.4);
+  margin-bottom: 50px;
+}
+/* .about-us-background-image {
+  position: absolute;
+  left: -5%;
+  top: 60%;
+  padding: 0px 0.615px 0.455px 0px;
+  justify-content: center;
+  align-items: center;
+  } */
+
+/* ABOUT US */
